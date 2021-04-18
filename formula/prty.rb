@@ -1,6 +1,6 @@
 require "formula"
 
-class PRTY < Formula
+class Prty < Formula
   desc "Intellegent PR Review"
   homepage "https://github.com/ajones/prty"
   url "https://github.com/ajones/homebrew-prty/archive/refs/tags/v0.0.1.tar.gz"
