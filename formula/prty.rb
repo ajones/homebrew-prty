@@ -8,7 +8,7 @@ class Prty < Formula
   head "https://github.com/ajones/prty.git"
 
   def install
-    bin.install "prty"
+    bin.install "dist/prty"
   end
 
   # Homebrew requires tests.
