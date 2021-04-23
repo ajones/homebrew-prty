@@ -3,8 +3,8 @@ require "formula"
 class Prty < Formula
   desc "Intellegent PR Review"
   homepage "https://github.com/ajones/prty"
-  url "https://github.com/ajones/homebrew-prty/archive/refs/tags/v0.0.4.tar.gz"
-  sha256 "eb9515cb4a779dda1779ebc1ecabaa5cba1d14802a9d780e167c02f6f966962d"
+  url "https://github.com/ajones/homebrew-prty/archive/refs/tags/v0.0.5.tar.gz"
+  sha256 "7d6cbfe6766a3afe3cf87e013aba7c78189a3a9db1788d708961a68553971e88"
   head "https://github.com/ajones/prty.git"
 
   def install
@@ -13,6 +13,6 @@ class Prty < Formula
 
   # Homebrew requires tests.
   test do
-    assert_match "version 0.0.4", shell_output("#{bin}/prty -v", 2)
+    assert_match "version 0.0.5", shell_output("#{bin}/prty -v", 2)
   end
 end
